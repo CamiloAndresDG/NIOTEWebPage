@@ -990,3 +990,92 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+/* Log in and Sing up*/
+body{
+  background-color: #FFF;
+  }
+
+.Contenedor{
+float: left;
+margin-left: 100px;
+margin-top: 70px;
+}
+    
+.NIOTELogo{
+padding: 10px;
+width: 400px;
+height: 210px;
+}
+
+.CampoInicio, .CampoRegistro{
+  width: 500px;
+  padding: 30px;
+  margin: auto;
+margin-right: 80px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whithe;
+  background-color: #FFF;
+box-shadow: 7px 13px 37px #000;
+  }
+
+.CampoInicio{
+ margin-top: 150px;
+}
+
+.CampoRegistro{
+ margin-top: 120px;
+}
+
+.CampoInicio h2, .CampoRegistro h2{
+  text-align:center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #000;
+  }
+
+.campos{
+  width: 100%;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ff6d00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ff6d00;
+  }
+
+.CampoInicio .boton, .CampoRegistro .boton{
+  width: 100%;
+  background-color: #ff6d00;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 12px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+  }
+
+.CampoInicio .boton:hover, .CampoRegistro .boton:hover{
+  background-color: #c43c00;
+  }
+
+.CampoInicio p, a{
+  text-align:center;
+  color: #ff6d00;
+font-size: 17px;
+  }
+
+.CampoInicio a{
+  font-weight: bold;
+  }
+
+.CampoInicio a:hover{
+  color: #000;
+  }
+
+.campos::placeholder {
+  color: #ff6d00;
+  }
